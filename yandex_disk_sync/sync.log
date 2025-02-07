@@ -1,0 +1,16 @@
+2025-02-08T03:19:56.156052+0800 INFO Логгер инициализирован
+2025-02-08T03:19:56.156208+0800 INFO Запуск отслеживания папки: /Users/temirlan/File-synchronization-service/yandex_disk_sync
+2025-02-08T03:19:56.166721+0800 INFO Удаление файла: MySyncFolder/sync.log
+2025-02-08T03:19:57.080516+0800 ERROR Ошибка при удалении файла MySyncFolder/sync.log: {"message":"Не удалось найти запрошенный ресурс.","description":"Resource not found.","error":"DiskNotFoundError"}
+2025-02-08T03:19:57.082232+0800 INFO Проверка существования папки: MySyncFolder
+2025-02-08T03:19:58.046847+0800 INFO Загрузка файла: /Users/temirlan/File-synchronization-service/yandex_disk_sync/sync.log → MySyncFolder/sync.log
+2025-02-08T03:20:01.476945+0800 INFO Файл /Users/temirlan/File-synchronization-service/yandex_disk_sync/sync.log успешно загружен на MySyncFolder/sync.log
+2025-02-08T03:21:13.461991+0800 INFO Проверка существования папки: MySyncFolder
+2025-02-08T03:21:14.738660+0800 INFO Загрузка файла: /Users/temirlan/File-synchronization-service/yandex_disk_sync/test_file.txt → MySyncFolder/test_file.txt
+2025-02-08T03:21:19.642983+0800 INFO Файл /Users/temirlan/File-synchronization-service/yandex_disk_sync/test_file.txt успешно загружен на MySyncFolder/test_file.txt
+2025-02-08T03:21:31.115928+0800 INFO Удаление файла: MySyncFolder/test_file.txt
+2025-02-08T03:21:32.920315+0800 INFO Файл MySyncFolder/test_file.txt успешно удалён
+2025-02-08T03:21:52.234381+0800 INFO Проверка существования папки: MySyncFolder
+2025-02-08T03:21:53.195878+0800 INFO Загрузка файла: /Users/temirlan/File-synchronization-service/yandex_disk_sync/test_file.txt → MySyncFolder/test_file.txt
+2025-02-08T03:21:56.544615+0800 INFO Файл /Users/temirlan/File-synchronization-service/yandex_disk_sync/test_file.txt успешно загружен на MySyncFolder/test_file.txt
+2025-02-08T03:23:16.834873+0800 INFO Синхронизация остановлена пользователем
