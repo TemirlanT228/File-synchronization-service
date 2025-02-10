@@ -1,16 +1,100 @@
-2025-02-08T03:19:56.156052+0800 INFO Логгер инициализирован
-2025-02-08T03:19:56.156208+0800 INFO Запуск отслеживания папки: /Users/temirlan/File-synchronization-service/yandex_disk_sync
-2025-02-08T03:19:56.166721+0800 INFO Удаление файла: MySyncFolder/sync.log
-2025-02-08T03:19:57.080516+0800 ERROR Ошибка при удалении файла MySyncFolder/sync.log: {"message":"Не удалось найти запрошенный ресурс.","description":"Resource not found.","error":"DiskNotFoundError"}
-2025-02-08T03:19:57.082232+0800 INFO Проверка существования папки: MySyncFolder
-2025-02-08T03:19:58.046847+0800 INFO Загрузка файла: /Users/temirlan/File-synchronization-service/yandex_disk_sync/sync.log → MySyncFolder/sync.log
-2025-02-08T03:20:01.476945+0800 INFO Файл /Users/temirlan/File-synchronization-service/yandex_disk_sync/sync.log успешно загружен на MySyncFolder/sync.log
-2025-02-08T03:21:13.461991+0800 INFO Проверка существования папки: MySyncFolder
-2025-02-08T03:21:14.738660+0800 INFO Загрузка файла: /Users/temirlan/File-synchronization-service/yandex_disk_sync/test_file.txt → MySyncFolder/test_file.txt
-2025-02-08T03:21:19.642983+0800 INFO Файл /Users/temirlan/File-synchronization-service/yandex_disk_sync/test_file.txt успешно загружен на MySyncFolder/test_file.txt
-2025-02-08T03:21:31.115928+0800 INFO Удаление файла: MySyncFolder/test_file.txt
-2025-02-08T03:21:32.920315+0800 INFO Файл MySyncFolder/test_file.txt успешно удалён
-2025-02-08T03:21:52.234381+0800 INFO Проверка существования папки: MySyncFolder
-2025-02-08T03:21:53.195878+0800 INFO Загрузка файла: /Users/temirlan/File-synchronization-service/yandex_disk_sync/test_file.txt → MySyncFolder/test_file.txt
-2025-02-08T03:21:56.544615+0800 INFO Файл /Users/temirlan/File-synchronization-service/yandex_disk_sync/test_file.txt успешно загружен на MySyncFolder/test_file.txt
-2025-02-08T03:23:16.834873+0800 INFO Синхронизация остановлена пользователем
+2025-02-11 05:47:57,236 - Начата синхронизация /Users/temirlan/File-synchronization-service/yandex_disk_sync → MySyncFolder
+2025-02-11 05:49:10,913 - Начата синхронизация /Users/temirlan/File-synchronization-service/yandex_disk_sync → MySyncFolder
+2025-02-11 05:54:11 - INFO - Логгер инициализирован. Локальная папка: /Users/temirlan/File-synchronization-service/yandex_disk_sync
+2025-02-11 05:54:11 - INFO - Начата синхронизация: /Users/temirlan/File-synchronization-service/yandex_disk_sync → Yandex.Disk
+2025-02-11 05:54:11 - INFO - Запущен файловый наблюдатель для /Users/temirlan/File-synchronization-service/yandex_disk_sync
+2025-02-11 05:54:31 - INFO - [WATCHDOG] Файл создан: /Users/temirlan/File-synchronization-service/yandex_disk_sync/text.txt
+2025-02-11 05:54:32 - INFO - Папка MySyncFolder существует.
+2025-02-11 05:54:32 - INFO - Загрузка файла: /Users/temirlan/File-synchronization-service/yandex_disk_sync/text.txt -> MySyncFolder/text.txt
+2025-02-11 05:54:36 - INFO - Файл /Users/temirlan/File-synchronization-service/yandex_disk_sync/text.txt успешно загружен в MySyncFolder/text.txt
+2025-02-11 05:54:36 - INFO - Файл загружен: MySyncFolder/text.txt
+2025-02-11 05:55:48 - INFO - [WATCHDOG] Файл изменён: /Users/temirlan/File-synchronization-service/yandex_disk_sync/logger.py
+2025-02-11 05:55:49 - INFO - Папка MySyncFolder существует.
+2025-02-11 05:55:49 - INFO - Загрузка файла: /Users/temirlan/File-synchronization-service/yandex_disk_sync/logger.py -> MySyncFolder/logger.py
+2025-02-11 05:55:52 - INFO - Файл /Users/temirlan/File-synchronization-service/yandex_disk_sync/logger.py успешно загружен в MySyncFolder/logger.py
+2025-02-11 05:55:52 - INFO - Файл обновлён: MySyncFolder/logger.py
+2025-02-11 05:55:52 - INFO - [WATCHDOG] Файл создан: /Users/temirlan/File-synchronization-service/yandex_disk_sync/logger.py~
+2025-02-11 05:55:53 - INFO - Папка MySyncFolder существует.
+2025-02-11 05:55:53 - INFO - Загрузка файла: /Users/temirlan/File-synchronization-service/yandex_disk_sync/logger.py~ -> MySyncFolder/logger.py~
+2025-02-11 05:55:54 - ERROR - Исключение при загрузке файла /Users/temirlan/File-synchronization-service/yandex_disk_sync/logger.py~: [Errno 2] No such file or directory: '/Users/temirlan/File-synchronization-service/yandex_disk_sync/logger.py~'
+2025-02-11 05:55:54 - INFO - Файл загружен: MySyncFolder/logger.py~
+2025-02-11 05:55:54 - INFO - [WATCHDOG] Файл изменён: /Users/temirlan/File-synchronization-service/yandex_disk_sync/logger.py~
+2025-02-11 05:55:55 - INFO - Папка MySyncFolder существует.
+2025-02-11 05:55:55 - INFO - Загрузка файла: /Users/temirlan/File-synchronization-service/yandex_disk_sync/logger.py~ -> MySyncFolder/logger.py~
+2025-02-11 05:55:56 - ERROR - Исключение при загрузке файла /Users/temirlan/File-synchronization-service/yandex_disk_sync/logger.py~: [Errno 2] No such file or directory: '/Users/temirlan/File-synchronization-service/yandex_disk_sync/logger.py~'
+2025-02-11 05:55:56 - INFO - Файл обновлён: MySyncFolder/logger.py~
+2025-02-11 05:55:56 - INFO - [WATCHDOG] Файл удалён: /Users/temirlan/File-synchronization-service/yandex_disk_sync/logger.py~
+2025-02-11 05:55:57 - WARNING - Файл MySyncFolder/logger.py~ не найден в облаке для удаления
+2025-02-11 05:55:58 - INFO - [WATCHDOG] Файл изменён: /Users/temirlan/File-synchronization-service/yandex_disk_sync/yandex_disk.py
+2025-02-11 05:55:59 - INFO - Папка MySyncFolder существует.
+2025-02-11 05:55:59 - INFO - Загрузка файла: /Users/temirlan/File-synchronization-service/yandex_disk_sync/yandex_disk.py -> MySyncFolder/yandex_disk.py
+2025-02-11 05:56:02 - INFO - Файл /Users/temirlan/File-synchronization-service/yandex_disk_sync/yandex_disk.py успешно загружен в MySyncFolder/yandex_disk.py
+2025-02-11 05:56:02 - INFO - Файл обновлён: MySyncFolder/yandex_disk.py
+2025-02-11 05:56:02 - INFO - [WATCHDOG] Файл создан: /Users/temirlan/File-synchronization-service/yandex_disk_sync/yandex_disk.py~
+2025-02-11 05:56:03 - INFO - Папка MySyncFolder существует.
+2025-02-11 05:56:03 - INFO - Загрузка файла: /Users/temirlan/File-synchronization-service/yandex_disk_sync/yandex_disk.py~ -> MySyncFolder/yandex_disk.py~
+2025-02-11 05:56:04 - ERROR - Исключение при загрузке файла /Users/temirlan/File-synchronization-service/yandex_disk_sync/yandex_disk.py~: [Errno 2] No such file or directory: '/Users/temirlan/File-synchronization-service/yandex_disk_sync/yandex_disk.py~'
+2025-02-11 05:56:04 - INFO - Файл загружен: MySyncFolder/yandex_disk.py~
+2025-02-11 05:56:04 - INFO - [WATCHDOG] Файл изменён: /Users/temirlan/File-synchronization-service/yandex_disk_sync/yandex_disk.py~
+2025-02-11 05:56:05 - INFO - Папка MySyncFolder существует.
+2025-02-11 05:56:05 - INFO - Загрузка файла: /Users/temirlan/File-synchronization-service/yandex_disk_sync/yandex_disk.py~ -> MySyncFolder/yandex_disk.py~
+2025-02-11 05:56:07 - ERROR - Исключение при загрузке файла /Users/temirlan/File-synchronization-service/yandex_disk_sync/yandex_disk.py~: [Errno 2] No such file or directory: '/Users/temirlan/File-synchronization-service/yandex_disk_sync/yandex_disk.py~'
+2025-02-11 05:56:07 - INFO - Файл обновлён: MySyncFolder/yandex_disk.py~
+2025-02-11 05:56:07 - INFO - [WATCHDOG] Файл удалён: /Users/temirlan/File-synchronization-service/yandex_disk_sync/yandex_disk.py~
+2025-02-11 05:56:08 - WARNING - Файл MySyncFolder/yandex_disk.py~ не найден в облаке для удаления
+2025-02-11 05:56:10 - INFO - [WATCHDOG] Файл изменён: /Users/temirlan/File-synchronization-service/yandex_disk_sync/watchdog_handler.py
+2025-02-11 05:56:11 - INFO - Папка MySyncFolder существует.
+2025-02-11 05:56:11 - INFO - Загрузка файла: /Users/temirlan/File-synchronization-service/yandex_disk_sync/watchdog_handler.py -> MySyncFolder/watchdog_handler.py
+2025-02-11 05:56:13 - INFO - Файл /Users/temirlan/File-synchronization-service/yandex_disk_sync/watchdog_handler.py успешно загружен в MySyncFolder/watchdog_handler.py
+2025-02-11 05:56:13 - INFO - Файл обновлён: MySyncFolder/watchdog_handler.py
+2025-02-11 05:56:13 - INFO - [WATCHDOG] Файл создан: /Users/temirlan/File-synchronization-service/yandex_disk_sync/watchdog_handler.py~
+2025-02-11 05:56:14 - INFO - Папка MySyncFolder существует.
+2025-02-11 05:56:14 - INFO - Загрузка файла: /Users/temirlan/File-synchronization-service/yandex_disk_sync/watchdog_handler.py~ -> MySyncFolder/watchdog_handler.py~
+2025-02-11 05:56:16 - ERROR - Исключение при загрузке файла /Users/temirlan/File-synchronization-service/yandex_disk_sync/watchdog_handler.py~: [Errno 2] No such file or directory: '/Users/temirlan/File-synchronization-service/yandex_disk_sync/watchdog_handler.py~'
+2025-02-11 05:56:16 - INFO - Файл загружен: MySyncFolder/watchdog_handler.py~
+2025-02-11 05:56:16 - INFO - [WATCHDOG] Файл изменён: /Users/temirlan/File-synchronization-service/yandex_disk_sync/watchdog_handler.py~
+2025-02-11 05:56:17 - INFO - Папка MySyncFolder существует.
+2025-02-11 05:56:17 - INFO - Загрузка файла: /Users/temirlan/File-synchronization-service/yandex_disk_sync/watchdog_handler.py~ -> MySyncFolder/watchdog_handler.py~
+2025-02-11 05:56:18 - ERROR - Исключение при загрузке файла /Users/temirlan/File-synchronization-service/yandex_disk_sync/watchdog_handler.py~: [Errno 2] No such file or directory: '/Users/temirlan/File-synchronization-service/yandex_disk_sync/watchdog_handler.py~'
+2025-02-11 05:56:18 - INFO - Файл обновлён: MySyncFolder/watchdog_handler.py~
+2025-02-11 05:56:18 - INFO - [WATCHDOG] Файл удалён: /Users/temirlan/File-synchronization-service/yandex_disk_sync/watchdog_handler.py~
+2025-02-11 05:56:19 - WARNING - Файл MySyncFolder/watchdog_handler.py~ не найден в облаке для удаления
+2025-02-11 05:56:28 - INFO - [WATCHDOG] Файл изменён: /Users/temirlan/File-synchronization-service/yandex_disk_sync/sync.py
+2025-02-11 05:56:30 - INFO - Папка MySyncFolder существует.
+2025-02-11 05:56:30 - INFO - Загрузка файла: /Users/temirlan/File-synchronization-service/yandex_disk_sync/sync.py -> MySyncFolder/sync.py
+2025-02-11 05:56:33 - INFO - Синхронизация остановлена пользователем.
+2025-02-11 05:56:36 - INFO - Файл /Users/temirlan/File-synchronization-service/yandex_disk_sync/sync.py успешно загружен в MySyncFolder/sync.py
+2025-02-11 05:56:36 - INFO - Файл обновлён: MySyncFolder/sync.py
+2025-02-11 05:56:36 - INFO - Логгер инициализирован. Локальная папка: /Users/temirlan/File-synchronization-service/yandex_disk_sync
+2025-02-11 05:56:36 - INFO - Начата синхронизация: /Users/temirlan/File-synchronization-service/yandex_disk_sync -> Yandex.Disk
+2025-02-11 05:56:36 - INFO - Запущен файловый наблюдатель для /Users/temirlan/File-synchronization-service/yandex_disk_sync
+2025-02-11 05:56:47 - INFO - [WATCHDOG] Файл удалён: /Users/temirlan/File-synchronization-service/yandex_disk_sync/text.txt
+2025-02-11 05:56:48 - INFO - Удаление файла с Яндекс.Диска: MySyncFolder/text.txt
+2025-02-11 05:56:49 - INFO - Файл MySyncFolder/text.txt удалён с Яндекс.Диска
+2025-02-11 05:56:49 - INFO - Файл удалён из облака: MySyncFolder/text.txt
+2025-02-11 05:57:17 - INFO - [WATCHDOG] Файл создан: /Users/temirlan/File-synchronization-service/yandex_disk_sync/test.txt
+2025-02-11 05:57:18 - INFO - Папка MySyncFolder существует.
+2025-02-11 05:57:18 - INFO - Загрузка файла: /Users/temirlan/File-synchronization-service/yandex_disk_sync/test.txt -> MySyncFolder/test.txt
+2025-02-11 05:57:20 - INFO - Файл /Users/temirlan/File-synchronization-service/yandex_disk_sync/test.txt успешно загружен в MySyncFolder/test.txt
+2025-02-11 05:57:20 - INFO - Файл загружен: MySyncFolder/test.txt
+2025-02-11 05:58:25 - INFO - [WATCHDOG] Файл удалён: /Users/temirlan/File-synchronization-service/yandex_disk_sync/test.txt
+2025-02-11 05:58:26 - WARNING - Файл MySyncFolder/test.txt отсутствует в облаке
+2025-02-11 05:58:38 - INFO - [WATCHDOG] Файл создан: /Users/temirlan/File-synchronization-service/yandex_disk_sync/test.txt
+2025-02-11 05:58:39 - INFO - Папка MySyncFolder существует.
+2025-02-11 05:58:39 - INFO - Загрузка файла: /Users/temirlan/File-synchronization-service/yandex_disk_sync/test.txt -> MySyncFolder/test.txt
+2025-02-11 05:58:43 - INFO - Файл /Users/temirlan/File-synchronization-service/yandex_disk_sync/test.txt успешно загружен в MySyncFolder/test.txt
+2025-02-11 05:58:43 - INFO - Файл загружен: MySyncFolder/test.txt
+2025-02-11 05:59:03 - INFO - [WATCHDOG] Файл удалён: /Users/temirlan/File-synchronization-service/yandex_disk_sync/test.txt
+2025-02-11 05:59:04 - INFO - Удаление файла с Яндекс.Диска: MySyncFolder/test.txt
+2025-02-11 05:59:05 - INFO - Файл MySyncFolder/test.txt удалён с Яндекс.Диска
+2025-02-11 05:59:05 - INFO - Файл удалён из облака: MySyncFolder/test.txt
+2025-02-11 05:59:48 - INFO - [WATCHDOG] Файл создан: /Users/temirlan/File-synchronization-service/yandex_disk_sync/text.txt
+2025-02-11 05:59:49 - INFO - Папка MySyncFolder существует.
+2025-02-11 05:59:49 - INFO - Загрузка файла: /Users/temirlan/File-synchronization-service/yandex_disk_sync/text.txt -> MySyncFolder/text.txt
+2025-02-11 05:59:52 - INFO - Файл /Users/temirlan/File-synchronization-service/yandex_disk_sync/text.txt успешно загружен в MySyncFolder/text.txt
+2025-02-11 05:59:52 - INFO - Файл загружен: MySyncFolder/text.txt
+2025-02-11 06:00:08 - INFO - [WATCHDOG] Файл удалён: /Users/temirlan/File-synchronization-service/yandex_disk_sync/text.txt
+2025-02-11 06:00:09 - INFO - Удаление файла с Яндекс.Диска: MySyncFolder/text.txt
+2025-02-11 06:00:10 - INFO - Файл MySyncFolder/text.txt удалён с Яндекс.Диска
+2025-02-11 06:00:10 - INFO - Файл удалён из облака: MySyncFolder/text.txt
+2025-02-11 06:03:27 - INFO - Синхронизация остановлена пользователем.

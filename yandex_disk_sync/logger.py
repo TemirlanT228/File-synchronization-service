@@ -1,12 +1,25 @@
-from loguru import logger
-import os
-from config import LOG_FILE
+import logging
+from config import LOG_FILE, LOCAL_FOLDER
 
-# Удаляем старый лог, если он есть
-if os.path.exists(LOG_FILE):
-    os.remove(LOG_FILE)
+# Создаем логгер
+logger = logging.getLogger()
+logger.setLevel(logging.INFO)
 
-# Настраиваем логгер
-logger.add(LOG_FILE, format="{time} {level} {message}", level="INFO", rotation="1 MB", compression="zip")
+# File handler: пишет в файл
+file_handler = logging.FileHandler(LOG_FILE)
+file_handler.setLevel(logging.INFO)
 
-logger.info("Логгер инициализирован")
+# Console handler: выводит в консоль
+console_handler = logging.StreamHandler()
+console_handler.setLevel(logging.INFO)
+
+# Форматтер для обоих хендлеров
+formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s", datefmt="%Y-%m-%d %H:%M:%S")
+file_handler.setFormatter(formatter)
+console_handler.setFormatter(formatter)
+
+# Добавляем обработчики в логгер
+logger.addHandler(file_handler)
+logger.addHandler(console_handler)
+
+logger.info("Логгер инициализирован. Локальная папка: %s", LOCAL_FOLDER)
